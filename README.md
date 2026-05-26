@@ -1,57 +1,72 @@
 # Smart Rehabilitation Glove
 
-Wearable rehabilitation system integrating multi-sensor data acquisition, embedded control, ergonomic mechanical design, and real-time visualization.
+![Smart Rehabilitation Glove full prototype](media/hero-smart-rehab-glove.jpg)
 
-> Capstone project repository scaffold. Add final code, CAD, diagrams, photos, and reports as project materials become shareable.
+Wearable rehabilitation prototype that combines glove-mounted motion sensors, custom electronics, embedded acquisition, and a visualization workflow for tracking hand-recovery data outside of a clinic.
 
-## Project Summary
-The Smart Rehabilitation Glove is designed to capture hand/finger motion and physiological feedback for rehabilitation monitoring. The system combines flex sensors, IMUs, pulse sensing, embedded data acquisition, and a Raspberry Pi-based visualization interface.
+## Project Snapshot
 
-## System Goals
-- Measure finger/joint motion through flex sensors and IMUs.
-- Collect sensor data using an ESP32-based acquisition architecture.
-- Visualize joint angle and pulse data through a Raspberry Pi GUI.
-- Improve sensor placement repeatability through ergonomic mechanical design.
-- Support calibration/testing to map raw sensor values to meaningful motion data.
+- **Role:** Mechanical / mechatronics contributor for wearable integration, sensor mounting, CAD, housing design, wiring integration, and project documentation.
+- **System:** Glove-mounted flex sensors, IMUs, force sensing, pulse/SpO₂ sensing, ESP32-based data acquisition, Raspberry Pi / Node-RED visualization, and 3D-printed housings.
+- **Purpose:** Capture repeatable hand/finger motion and physiological feedback during rehabilitation sessions.
+- **Current repo state:** Portfolio-ready scaffold with project photos and documentation structure. Additional code/CAD/report materials can be added as they become shareable.
+
+## Build Gallery
+
+| Full wearable system | Open electronics bay |
+|---|---|
+| ![Full wearable Smart Rehabilitation Glove system](media/full-system-tabletop.jpg) | ![Open electronics enclosure with embedded board and wiring](media/open-electronics-lit.jpg) |
+
+| Custom PCB boards | Worn prototype test |
+|---|---|
+| ![Custom PCB boards for sensor acquisition](media/custom-pcb-boards.jpg) | ![Smart Rehabilitation Glove worn during lab testing](media/worn-prototype-lab.jpg) |
+
+## What the System Demonstrates
+
+### Wearable mechanical integration
+- 3D-printed finger segments and mounts for sensor placement.
+- Forearm-mounted electronics enclosure with strap interface.
+- Cable routing from glove sensors into the control enclosure.
+- Iterative fit, serviceability, and prototype packaging decisions.
+
+### Embedded and sensor hardware
+- Custom PCB boards for sensor/acquisition organization.
+- ESP32-style embedded controller integration inside the forearm housing.
+- Multiple glove-mounted sensor modules across fingers.
+- Active wiring harness and enclosure-level integration for bench testing.
+
+### Rehabilitation-data workflow
+- Captures finger/joint movement inputs and physiological signals.
+- Supports calibration and validation work for raw sensor-to-motion mapping.
+- Designed around post-session review and real-time visualization concepts.
 
 ## System Architecture
 
-| Subsystem | Purpose | Example Hardware/Tools |
+| Subsystem | Purpose | Example Hardware / Tools |
 |---|---|---|
-| Wearable glove | ergonomic sensor mounting and repeatability | glove, 3D-printed mounts/enclosures |
-| Sensor layer | motion and physiological data capture | flex sensors, IMUs, pulse sensor |
-| Embedded acquisition | sensor sampling and communication | ESP32, I2C/SPI/ADC/GPIO |
-| Visualization | real-time user feedback | Raspberry Pi GUI |
-| Calibration/testing | validate sensor-to-motion mapping | test procedures, plots, comparison data |
+| Wearable glove | Repeatable sensor placement and human-interface fit | Glove, 3D-printed mounts, straps |
+| Sensor layer | Motion and physiological data capture | Flex sensors, IMUs, force sensing, pulse / SpO₂ sensing |
+| Embedded acquisition | Sensor sampling, wiring, and communication | ESP32-class controller, custom PCBs, GPIO/ADC/I2C/SPI-style interfaces |
+| Electronics enclosure | Wearable packaging and service access | 3D-printed forearm box, removable lid, switch, battery/wiring |
+| Visualization | User/session feedback | Raspberry Pi / Node-RED dashboard workflow |
+| Calibration/testing | Convert raw signals into useful motion data | Calibration procedures, test reports, plots, session review |
 
-## My Contributions
-- Led mechanical design for glove ergonomics, sensor placement, and repeatability.
-- Architected ESP32-based multi-sensor acquisition approach.
-- Developed Raspberry Pi GUI concepts for real-time visualization.
-- Designed 3D-printed enclosures/mounts for sensor integration.
-- Performed calibration testing to correlate sensor outputs with physical joint motion.
+## Repository Structure
 
-## Planned Repository Structure
 ```text
 cad/        CAD models, mounts, enclosures, and exports
-code/       ESP32 firmware and Raspberry Pi GUI code
-docs/       reports, design notes, test plans, and diagrams
-media/      photos, screenshots, demo videos, and renders
+code/       ESP32 firmware and Raspberry Pi / dashboard code when shareable
+docs/       reports, design notes, test plans, diagrams, and presentation material
+media/      project photos, demo visuals, screenshots, and renders
 data/       calibration/test datasets if shareable
 ```
 
-## Development Roadmap
-- [ ] Add system block diagram
-- [ ] Add glove photos/renders
-- [ ] Add ESP32 firmware
-- [ ] Add Raspberry Pi GUI screenshots/code
-- [ ] Add calibration method and sample plots
-- [ ] Add final report/presentation if shareable
-
 ## Skills Demonstrated
+
 - Mechatronics system integration
+- Wearable electromechanical prototyping
 - Embedded sensor acquisition
-- Ergonomic mechanical design
-- Calibration and validation testing
-- Human-centered electromechanical system design
-- Technical documentation
+- Custom PCB / wiring-harness integration
+- Ergonomic mechanical design and 3D-printed packaging
+- Calibration and validation planning
+- Technical documentation for a capstone-scale engineering system
