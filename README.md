@@ -1,6 +1,6 @@
 # Smart Rehabilitation Glove
 
-![Smart Rehabilitation Glove full prototype](media/hero-smart-rehab-glove.jpg)
+![Smart Rehabilitation Glove full prototype](https://cdn.discordapp.com/attachments/1507256945277403216/1508934563747856466/IMG_3741.png?ex=6a175852&is=6a1606d2&hm=d95a78d24a30068d7d7d0b722a70cc8aab534a16a7ce8493b32acf85b03a2190&)
 
 Wearable rehabilitation prototype that combines glove-mounted motion sensors, custom electronics, embedded acquisition, and a visualization workflow for tracking hand-recovery data outside of a clinic.
 
@@ -15,11 +15,11 @@ Wearable rehabilitation prototype that combines glove-mounted motion sensors, cu
 
 | Full wearable system | Open electronics bay |
 |---|---|
-| ![Full wearable Smart Rehabilitation Glove system](media/full-system-tabletop.jpg) | ![Open electronics enclosure with embedded board and wiring](media/open-electronics-lit.jpg) |
+| ![Full wearable Smart Rehabilitation Glove system](https://cdn.discordapp.com/attachments/1507256945277403216/1508934563747856466/IMG_3741.png?ex=6a175852&is=6a1606d2&hm=d95a78d24a30068d7d7d0b722a70cc8aab534a16a7ce8493b32acf85b03a2190&) | ![Open electronics enclosure with embedded board and wiring](https://cdn.discordapp.com/attachments/1507256945277403216/1508934563420966932/IMG_3742.png?ex=6a175852&is=6a1606d2&hm=30b1a1479a44546557998b0bed13242a03b7c4ffb365201ebbae38c25f7fea92&) |
 
 | Custom PCB boards | Worn prototype test |
 |---|---|
-| ![Custom PCB boards for sensor acquisition](media/custom-pcb-boards.jpg) | ![Smart Rehabilitation Glove worn during lab testing](media/worn-prototype-lab.jpg) |
+| ![Custom PCB boards for sensor acquisition](https://cdn.discordapp.com/attachments/1507256945277403216/1508934562774777886/IMG_3744.png?ex=6a175852&is=6a1606d2&hm=7f9e0f5f53e781520d7f56d098151b9f9ecaa441567712ddb81b7d4c0ca953d2&) | ![Smart Rehabilitation Glove worn during lab testing](https://cdn.discordapp.com/attachments/1507256945277403216/1508934563106132132/IMG_3743.png?ex=6a175852&is=6a1606d2&hm=f12977c96729f6bf13432545fb86d0126552dab13466dd6dcf95304448ba1627&) |
 
 ## What the System Demonstrates
 
